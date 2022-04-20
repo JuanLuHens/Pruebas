@@ -3,4 +3,4 @@
   | where AccountType == 'User'  and Account contains "USUARIO"
   | extend AccountName=tolower(Account)
 | summarize
-    by Account,IpAddress
+    by Account,IpAddress,TimeCollected
