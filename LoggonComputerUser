@@ -1,0 +1,6 @@
+ SecurityEvent
+  | where EventID in (4624, 4625)
+  | where AccountType == 'User'  and Account contains "USUARIO"
+  | extend AccountName=tolower(Account)
+| summarize
+    by Account,IpAddress
