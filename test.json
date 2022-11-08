@@ -1,9 +1,9 @@
 {
-    "url": "https://raw.githubusercontent.com/cybervaca/sentinel/main/test.yaml",
+    "url": "https://raw.githubusercontent.com/JuanLuHens/Pruebas/main/test.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/cybervaca/sentinel/main/test.yaml",
-            "name": "Foo"
+            "url": "https://raw.githubusercontent.com/JuanLuHens/Pruebas/main/test.yaml",
+            "name": "Pruebas"
         }
     ]
 }
