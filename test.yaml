@@ -5,7 +5,7 @@ info:
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
 
   version: production
-basePath: /JSSResource/
+basePath: /
 produces:
   - application/xml
   - application/json
@@ -188,7 +188,7 @@ paths:
         '200':
           description: No response was specified
       tags:
-        - activationcode
+        - activationcode1
       operationId: findactivationcode
       summary: Finds the Jamf Pro activation code
     put:
@@ -196,7 +196,7 @@ paths:
         '200':
           description: No response was specified
       tags:
-        - activationcode
+        - activationcode1
       operationId: updateActivationCode
       summary: Updates the Jamf Pro activation code
   /advancedcomputersearches:
